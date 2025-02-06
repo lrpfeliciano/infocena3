@@ -6,7 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Em Construção</h1>
     <a href="../index.html">Voltar para a página principal</a>
+
+    <form method="post" 
+        action="http://localhost:82/exemplo/processa_formulario.php">
+        <div>
+            <label for="login">Login para entrar</label>
+            <input type="text" placeholder="Login" id="login"
+                name="login" /> 
+        </div>
+        <div>    
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" />
+        </div>
+        <div>
+            <input type="submit" value="Entrar no sistema" />
+            <input type="reset" value="Limpar" />            
+        </div>
+    </form>
 </body>
 </html>
