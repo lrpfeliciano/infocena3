@@ -1,7 +1,50 @@
 p {
-    color: #02290c
+    color: #02290c /* color é a cor da letra (fonte) */
 }
 
 h1 {
-    color:rgb(0, 51, 198)
+    color:rgb(0, 51, 198); /* color é a cor da letra (fonte) */
+    text-align: center; /* Alinhamento de texto */
+}
+
+img {
+    height: 100px; /*Altura */
+    width: 100px; /*Largura */
+}
+
+div {
+    /*margin: 30px; TODAS AS MARGENS */
+    margin: 20px 40px 10px 30px; /* Superior, direita, Inferior, esquerda */
+    padding-top: 10px; /* Espaçamento dentro do elemento */
+/*    
+    margin-top;
+    margin-left: ;
+    margin-right: ;
+    margin-bottom: ;
+*/
+}
+
+label {
+    margin-right: 20px;
+}
+
+.diferente {
+    margin-right: 30px;
+}
+
+/* 1) Coloque todos input type=text, type=email e select com a 
+largura de 150 px */
+.campo{
+    width: 150px;
+}
+
+/* 2) Coloque todos os botões com largura de 50 px */
+.botao {
+    width: 50px;
+}
+
+/* 3) Todos os botões "Limpar" com a cor de fundo verde */
+.limpar {
+    background-color:#02290c; /* Cor de fundo */
+    color: #fff;
 }

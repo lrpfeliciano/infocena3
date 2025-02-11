@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alugue sua loja</title>
+    <link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
     <form method="post"
         action="http://localhost:82/exemplo/processa_aluguel.php">
         <div>
-            <label for='nome'>Nome</label>
+            <label for='nome' class="diferente">Nome</label>
             <input type="text" id="nome" 
-                name="nome" required /><span>*</span>
+                name="nome" required class="campo"/><span>*</span>
         <!--
             O atributo "required" indica que o campo é 
             Obrigatório
@@ -20,11 +21,11 @@
         </div>
         <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" />
+            <input type="text" id="telefone" name="telefone" class="campo" />
         </div>
         <div>
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email"  />
+            <label for="email" class="diferente">E-mail</label>
+            <input type="email" id="email" name="email" class="campo" />
         </div>
         <div>
             <label>Tipo de locação</label>
@@ -35,7 +36,7 @@
         </div>
         <div>
             <label for="cidade">Cidade de origem</label>
-            <select name="cidade">
+            <select name="cidade" class="campo">
                 <option>Selecione a cidade</option>
                 <option>Rio de Janeiro</option>
                 <option>Nova Iguaçu</option>
@@ -48,8 +49,8 @@
             cols="100" rows="10"></textarea>
         </div>
         <div>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpar" />
+            <input type="submit" value="Enviar" class="botao"  />
+            <input type="reset" value="Limpar" class="botao limpar"  />
         </div>
     </form>
 </body>
