@@ -14,7 +14,7 @@ img {
 
 div {
     /*margin: 30px; TODAS AS MARGENS */
-    margin: 20px 40px 10px 30px; /* Superior, direita, Inferior, esquerda */
+    /*margin: 20px 40px 10px 30px;   Superior, direita, Inferior, esquerda */
     padding-top: 10px; /* Espaçamento dentro do elemento */
 /*    
     margin-top;
@@ -47,4 +47,9 @@ largura de 150 px */
 .limpar {
     background-color:#02290c; /* Cor de fundo */
     color: #fff;
+}
+
+.container, body{
+    /*background-color: #cef5d8 !important;*/
+    background-image: url('../imagens/image-fundo.jfif');
 }
