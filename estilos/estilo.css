@@ -24,10 +24,11 @@ div {
 */
 }
 
+/*
 label {
     margin-right: 20px;
 }
-
+*/
 .diferente {
     margin-right: 30px;
 }
@@ -52,4 +53,15 @@ largura de 150 px */
 .container, body{
     /*background-color: #cef5d8 !important;*/
     background-image: url('../imagens/image-fundo.jfif');
+    
+}
+
+.btn-primary{
+    background-color: rgba(14, 198, 42, 0.48) !important;
+    border-color: rgba(14, 198, 42, 0.48) !important;
+}
+
+.botao_estiloso {
+    background-color: red !important;
+    color: #fff !important;
 }

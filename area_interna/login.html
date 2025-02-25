@@ -12,24 +12,30 @@
     <link rel="stylesheet" href="../estilos/estilo.css" />
 </head>
 <body>
-    <a href="../index.html">Voltar para a página principal</a>
+    <div class="container">
+        <a href="../index.html" class="btn botao_estiloso">Voltar para a página principal</a>
 
-    <form method="post" 
-        action="http://localhost:82/exemplo/processa_formulario.php">
-        <div>
-            <label for="login">Login para entrar</label>
-            <input type="text" placeholder="Login" id="login"
-                name="login" class="campo" /> 
-        </div>
-        <div>    
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" class="campo" />
-        </div>
-        <div>
-            <input type="submit" value="Entrar no sistema" class="botao" />
-            <input type="reset" value="Limpar" class="botao limpar" />            
-        </div>
-    </form>
+        <form method="post" 
+            action="http://localhost:82/exemplo/processa_formulario.php">
+            <div class="row">
+                <label for="login" class="col-md-2 col-form-label">Login para entrar</label>
+                <div class="col-md-10">
+                    <input type="text" placeholder="Login" id="login"
+                        name="login" class="form-control" /> 
+                </div>
+            </div>
+            <div class="row">    
+                <label for="senha" class="col-md-2 col-form-label">Senha</label>
+                <div class="col-md-10">
+                    <input type="password" id="senha" name="senha" class="form-control" />
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Entrar no sistema" class="btn btn-primary" />
+                <input type="reset" value="Limpar" class="btn btn-secondary" />            
+            </div>
+        </form>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
